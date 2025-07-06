@@ -7,7 +7,7 @@
 # Check if input file is provided
 if [ "$#" -ne 4 ]; then
     echo "Usage: $0 <target_domain_string> <include_subdomain_bool> <https_bool> <wordlist_txt>"
-    exit 1a
+    exit 1
 fi
 
 TARGET_DOMAIN="$1"
